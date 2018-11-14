@@ -12,6 +12,7 @@ Binaries for handling SQS Dead Letter Queues:
 
 ### sqs-dead-letter-requeue
 ```sh
+go get -d ./...
 go build -o bin/sqs-dead-letter-requeue sqs-dead-letter-requeue/main.go
 ```
 
